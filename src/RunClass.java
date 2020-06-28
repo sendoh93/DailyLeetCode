@@ -5,15 +5,13 @@ import java.util.Map;
 
 public class RunClass {
     public static void main(String[] args) {
-        int n = 10;
-        for (int i = 0; i < n; ++i) {
-            System.out.println(i);
-        }
 
-
-        for (int i = 0; i < n; i++) {
-            System.out.println(i);
-        }
+        System.out.println(0/2 + 0%2);
+        System.out.println((1 << 30));
+        System.out.println((Math.pow(2,30)));
+        System.out.println((Math.pow(2,4)));
+        System.out.println(Math.log(1073741824)/Math.log(2));
+        System.out.println(Math.log(16)/Math.log(2));
 
 
     }
